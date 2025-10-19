@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    margin-top: 50px;
+}
+.Container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap:10px;
+    margin-top: 20px;
+
+}
+
+.cell{
+    
+  background-color: #fff;
+  border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 3px 4px rgb(23, 91, 23);
+
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+
+.header{
+ margin-bottom: 25px;
+ font-family: sans-serif;
+}
+.header span{
+    color: chartreuse;
+    
+}
+.winnershow{
+    
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: chartreuse;
+    
+}
+.winnershow img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.Button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.select{
+    display: flex;
+    justify-content: center;
+}
+.mode{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.mode_text{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.mode:hover{
+    background-color: chartreuse;
+}
+/* }
+   
+.boarder{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.boarder li{
+    background-color: blueviolet;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    padding: 50px;
+    margin: 5px;
+    gap:10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+span{
+    color:rgb(107, 156, 34);
+}
+.Reset{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline:none;
+    font-size: 20px;
+    background-color: chartreuse;
+    margin-top: 20px;
+}
+.icon{
+    width: 8px;
+    height: 8px;
+} */
+

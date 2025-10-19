@@ -1,8 +1,11 @@
 import React from "react";
+import "./App.css"
+import TicTacToe from "./Componets/Tic-tac-toe/tic_tac_toe.jsx";
 function App() {
   return (
     <div>
-      api
+      <TicTacToe />
+
     </div>
   );
 }
