@@ -11,8 +11,8 @@
 }
 .Container{
     display: grid;
-    grid-template-columns: repeat(3,100px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3,90px);
+    grid-template-rows: repeat(3, 90px);
     grid-gap:10px;
     margin-top: 20px;
 
@@ -55,7 +55,7 @@
 }
 .Button{
     margin-top: 20px;
-    padding: 10px 25px;
+    padding: 7px 20px;
     border-radius: 15px;
     font-size: 20px;
     outline: none;
@@ -82,49 +82,42 @@
 .mode:hover{
     background-color: chartreuse;
 }
-/* }
-   
-.boarder{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    
 
-}
+@media (max-width: 600px) {
+  .Container {
+    display: grid;
+    grid-template-columns: repeat(3,90px);
+    grid-template-rows: repeat(3, 90px);
 
-.boarder li{
-    background-color: blueviolet;
-    list-style: none;
-    width: 20px;
-    height: 20px;
-    padding: 50px;
-    margin: 5px;
-    gap:10px;
-    border-radius: 7px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-
-
-}
-img{
-    width: 40px;
-    height: 40px;
-    align-items: center;
-}
-span{
-    color:rgb(107, 156, 34);
-}
-.Reset{
-    padding: 10px 20px;
-    border-radius: 5px;
-    outline:none;
+  }
+  .header{
     font-size: 20px;
-    background-color: chartreuse;
-    margin-top: 20px;
-}
-.icon{
-    width: 8px;
-    height: 8px;
-} */
+  }
 
+  .mode{
+    margin-left: 5px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.mode_text{
+    text-align: center;
+    margin-bottom: 5px;}
+
+.mode:hover{
+    background-color: chartreuse;
+}
+
+.Button{
+    margin-top: 10px;
+    padding: 7px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+}
